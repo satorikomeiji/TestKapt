@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.20"
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"

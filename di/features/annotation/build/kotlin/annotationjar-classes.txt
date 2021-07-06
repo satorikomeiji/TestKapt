@@ -1,0 +1,1 @@
+/home/satorikomeiji/AndroidStudioProjects/TestKapt/di/features/annotation/build/classes/kotlin/main/com/example/annotation/TestAnnotation.class

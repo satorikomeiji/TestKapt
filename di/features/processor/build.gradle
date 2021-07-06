@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+dependencies {
+    implementation project(':di:features:annotation')
+    implementation 'com.squareup:kotlinpoet:1.4.0'
+    implementation 'com.squareup:javapoet:1.11.1'
+
+    compileOnly "net.ltgt.gradle.incap:incap:0.2"
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
